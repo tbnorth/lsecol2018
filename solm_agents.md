@@ -1,8 +1,8 @@
-# Applications of agent-based modeling to nutrient movement Lake Michigan <!-- .slide: data-state="hide-head" -->
-
 <!-- .slide: data-background="img/png/title.png" data-background-size="contain" -->
 
 <!--
+# Applications of agent-based modeling to nutrient movement Lake Michigan
+
 ## Terry N Brown, James Pauer, Tom P Hollenhorst
 
 http://tbnorth.github.io/solm_agents
