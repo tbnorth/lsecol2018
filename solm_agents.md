@@ -1,4 +1,4 @@
-# Applications of agent-based modeling to nutrient movement Lake Michigan
+# Appplications of agent-based modeling to nutrient movement Lake Michigan
 <!-- .slide: data-state="hide-head" -->
 
 <!-- .slide: data-background="img/png/title.png" data-background-size="contain" -->
