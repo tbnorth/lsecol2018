@@ -81,6 +81,9 @@ http://tbnorth.github.io/solm_agents
   maybe only 5% of the time at 50m
 - Trib. loads retained in nearshore for a long time, relative
   to seasonal dynamics
+
+
+
 <div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/ihdx9SCcS5Q?rel=0&amp;controls=1&amp;showinfo=0?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 
 
@@ -120,7 +123,6 @@ http://tbnorth.github.io/solm_agents
 
 
 
-
 ## Challenges
 
 - Visualization - complex systems, but avoid complex
@@ -130,3 +132,4 @@ http://tbnorth.github.io/solm_agents
 - Integration with watershed / landscape models
 - Validation - multi-year / date / location data on nearshore
   conditions scarce
+
