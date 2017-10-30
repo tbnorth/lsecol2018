@@ -1,7 +1,8 @@
+# Applications of agent-based modeling to nutrient movement Lake Michigan
+<!-- .slide: data-state="hide-head" -->
 <!-- .slide: data-background="img/png/title.png" data-background-size="contain" -->
 
 <!--
-# Applications of agent-based modeling to nutrient movement Lake Michigan
 
 ## Terry N Brown, James Pauer, Tom P Hollenhorst
 
@@ -31,6 +32,7 @@ http://tbnorth.github.io/solm_agents
   based on distance etc.
 - added and removed from the model over the model's
   runtime
+
 
 
 ## Agents for continuous phenomena
@@ -71,27 +73,60 @@ http://tbnorth.github.io/solm_agents
 
 
 
+## Nearshore model
+
+- Nearshore - where nearshore stuff happens
+- Nearshore stuff: trib. loads, resuspension, long shore flow, etc.
+- Fuzzy boundary, nearshore ~100% of the time at 5 m, but
+  maybe only 5% of the time at 50m
+- Trib. loads retained in nearshore for a long time, relative
+  to seasonal dynamics
 <div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/ihdx9SCcS5Q?rel=0&amp;controls=1&amp;showinfo=0?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+
 
 
 <div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/z2cA9vZoPkA?rel=0&amp;controls=1&amp;showinfo=0?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 
 
 
-Drifter origin 1
+### Lake Michigan animation
 
-
-Drifter origin 2
-
-
-Drifter origin 3
+![Lake Michigan animation](img/png/LMmovie.png)
 
 
 
-Abstract
-
-As part of an ongoing project aiming to provide useful information for nearshore management (harmful algal blooms, nutrient loading), we explore the value of agent-based models in Lake Michigan. Agent-based models follow many individual “agents” moving through a simulated system. Individually simulated fish in a modeled stream are a common example of agent-based modeling, but modern computing power allows such large numbers of agents to be processed they can approximate continuous phenomena like nutrient distribution in lakes. They complement fixed-cell (or grid) models, and hybrid models combining both representations are possible. By tracking identity and state (time and place of origin, internal state, interaction with environment, and interaction other agents) over time, agent-based models make it easy to ask and answer complex questions. What's the residence time of tributary water in the nearshore? How do lake wide flows differ seasonally and inter-annually? How is water exchanged between Green Bay and Lake Michigan? We include examples of state of the art visualization techniques - combining model results with advanced visualization techniques helps user interpret and ultimately apply data to their problems.
-
+<!-- .slide: data-background="img/png/nearshore_contrib0.png" data-background-size="contain" -->
+<!-- .slide: data-background-color="white" -->
 
 
+<!-- .slide: data-background="img/png/nearshore_contrib1.png" data-background-size="contain" -->
+<!-- .slide: data-background-color="white" -->
 
+
+<!-- .slide: data-background="img/png/nearshore_contrib2.png" data-background-size="contain" -->
+<!-- .slide: data-background-color="white" -->
+
+
+
+## Direction
+
+- *possible* future work: a tool that:
+- shows relative contributions to nearshore from
+  different tribs.
+- shows impact of timing of loads (flow, fertilizer
+  application dates, etc.)
+- gives “as of yesterday” estimates of current
+  conditions
+
+
+
+
+## Challenges
+
+- Visualization - complex systems, but avoid complex
+  interfaces
+- Loadings - realistic **daily** loading data for all major
+  Great Lakes tribs. not readily available
+- Integration with watershed / landscape models
+- Validation - multi-year / date / location data on nearshore
+  conditions scarce
