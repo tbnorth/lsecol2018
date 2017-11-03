@@ -92,9 +92,7 @@ http://tbnorth.github.io/solm_agents
 
 
 
-### Lake Michigan animation
-
-![Lake Michigan animation](img/png/LMmovie.png)
+<div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/LKLIabY-y6c?rel=0&amp;controls=1&amp;showinfo=0?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 
 
 
@@ -108,6 +106,9 @@ http://tbnorth.github.io/solm_agents
 
 <!-- .slide: data-background="img/png/nearshore_contrib2.png" data-background-size="contain" -->
 <!-- .slide: data-background-color="white" -->
+
+
+<div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/9xWGsL7qCIg?rel=0&amp;controls=1&amp;showinfo=0?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 
 
 
@@ -132,4 +133,14 @@ http://tbnorth.github.io/solm_agents
 - Integration with watershed / landscape models
 - Validation - multi-year / date / location data on nearshore
   conditions scarce
+
+
+
+## Contact
+
+Brown.TerryN@epa.gov
+
+Pauer.James@epa.gov
+
+Hollenhorst.Tom@epa.gov
 
