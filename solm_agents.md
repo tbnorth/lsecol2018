@@ -11,6 +11,14 @@ http://tbnorth.github.io/solm_agents
 
 
 
+## Grid and agent models...
+
+![Grid model](img/png/gridgen.png) <!-- .element height="500" -->
+&nbsp;&nbsp;&nbsp;&nbsp;
+![Agent model](img/png/agentgen.png) <!-- .element height="500" -->
+
+
+
 ## Cell (or grid) based models
 
 - divide space up into squares, maybe layered (3D)
@@ -32,6 +40,7 @@ http://tbnorth.github.io/solm_agents
   based on distance etc.
 - added and removed from the model over the model's
   runtime
+- often used to model plumes / spills
 
 
 
@@ -52,11 +61,20 @@ http://tbnorth.github.io/solm_agents
 
 
 
+![FVCOM model](img/png/FVCOM_LM.png) <!-- .element height="425" -->
+
+Unstructured grid
+
+Credit: Marine Ecosystem Dynamics Modeling Laboratory (MEDML)
+
+
+
 ## Agents
 
 - more precise for some spatial questions
 - can more easily represent complex life histories
 - can represent more complex spatial arrangements
+- variable density can allow more detail where needed
 
 
 
