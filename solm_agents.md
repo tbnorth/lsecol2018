@@ -39,7 +39,7 @@ http://tbnorth.github.io/solm_agents
 - can interact with surrounding agents (and cells)
   based on distance etc.
 - added and removed from the model over the model's
-  runtime
+  run-time
 - often used to model plumes / spills
 
 
@@ -69,6 +69,18 @@ Credit: Marine Ecosystem Dynamics Modeling Laboratory (MEDML)
 
 
 
+# Hydrodynamic model selection
+
+- available for all parts of all lakes
+- available for years covering available data (ideally 2000-)
+
+- NOAA POM, 2km (10km on Superior)
+- Navy Research Lab., 1km, Michigan only
+
+- Running FVCOM?  Historical coverage?
+
+
+
 ## Agents
 
 - more precise for some spatial questions
@@ -94,7 +106,7 @@ Credit: Marine Ecosystem Dynamics Modeling Laboratory (MEDML)
 ## Nearshore model
 
 - Nearshore - where nearshore stuff happens
-- Nearshore stuff: trib. loads, resuspension, long shore flow, etc.
+- Nearshore stuff: trib. loads, re-suspension, long shore flow, etc.
 - Fuzzy boundary, nearshore ~100% of the time at 5 m, but
   maybe only 5% of the time at 50m
 - Trib. loads retained in nearshore for a long time, relative
@@ -126,9 +138,6 @@ Credit: Marine Ecosystem Dynamics Modeling Laboratory (MEDML)
 <!-- .slide: data-background-color="white" -->
 
 
-<div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/9xWGsL7qCIg?rel=0&amp;controls=1&amp;showinfo=0?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
-
-
 
 ## Direction
 
@@ -154,11 +163,11 @@ Credit: Marine Ecosystem Dynamics Modeling Laboratory (MEDML)
 
 
 
-## Contact
+<div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/9xWGsL7qCIg?rel=0&amp;controls=1&amp;showinfo=0?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 
-Brown.TerryN@epa.gov
 
-Pauer.James@epa.gov
 
-Hollenhorst.Tom@epa.gov
+Brown.TerryN | Pauer.James | Hollenhorst.Tom @epa.gov
+
+<div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/9xWGsL7qCIg?rel=0&amp;controls=1&amp;showinfo=0?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:70%;height:70%;left:15%" allowfullscreen></iframe></div>
 
