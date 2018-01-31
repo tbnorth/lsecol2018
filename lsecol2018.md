@@ -1,5 +1,9 @@
 # Agent Based Models
 
+## in (landscape) ecology
+
+
+
 # Based on: Applications of agent-based modeling to nutrient movement Lake Michigan
 <!-- .slide: data-state="hide-head" -->
 <!-- .slide: data-background="img/png/title.png" data-background-size="contain" -->
@@ -55,7 +59,7 @@ http://tbnorth.github.io/solm_agents
   histories to be tracked
 - E.g. pollutant exposure, a model with child and adult agents
   can show how a small part of the population carries a
-  contaminant load from childhood to adulthood ABMs good
+  contaminant load from childhood to adulthood - ABMs good
   out outliers
 
 
@@ -69,7 +73,7 @@ http://tbnorth.github.io/solm_agents
 ## Agent interactions
 
 - run ABM with dozens / hundreds / thousands of agents...
-- competion for food / shade
+- competition for food / shade
 - big fish / little fish
   - how does time spent hiding impact time
     spent feeding?
@@ -84,8 +88,15 @@ Complexity more easily represented in ABMs
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zQhEGPrINJo?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Gavid Wood / YouTube
+Gavin Wood / YouTube
 
+
+
+## (NLCD land cover data)
+
+30 x 30 m grid of land use categories
+
+![](img/NLCD_landcover_MSN_area.png)
 
 
 ## Agents on a grid
@@ -162,11 +173,12 @@ Gavid Wood / YouTube
 
 ## Nearshore model
 
+- Nutrient movement in the nearshore - Harmful Algal Blooms etc.
 - Nearshore - where nearshore stuff happens
-- Nearshore stuff: trib. loads, re-suspension, long shore flow, etc.
+- Nearshore stuff: tributary loads, re-suspension, longshore flow, etc.
 - Fuzzy boundary, nearshore ~100% of the time at 5 m, but
   maybe only 5% of the time at 50m
-- Trib. loads retained in nearshore for a long time, relative
+- Tributary loads retained in nearshore for a long time, relative
   to seasonal dynamics
 
 
@@ -197,7 +209,7 @@ Gavid Wood / YouTube
 
 - *possible* future work: a tool that:
 - shows relative contributions to nearshore from
-  different tribs.
+  different tributaries.
 - shows impact of timing of loads (flow, fertilizer
   application dates, etc.)
 - gives “as of yesterday” estimates of current
@@ -210,7 +222,7 @@ Gavid Wood / YouTube
 - Visualization - complex systems, but avoid complex
   interfaces
 - Loadings - realistic **daily** loading data for all major
-  Great Lakes tribs. not readily available
+  Great Lakes tributaries not readily available
 - Integration with watershed / landscape models
 - Validation - multi-year / date / location data on nearshore
   conditions scarce
