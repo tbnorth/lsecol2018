@@ -46,7 +46,6 @@ http://tbnorth.github.io/solm_agents
   based on distance etc.
 - added and removed from the model over the model's
   run-time
-- often used to model plumes / spills
 
 
 
@@ -99,7 +98,7 @@ Gavin Wood / YouTube
 ![](img/NLCD_landcover_MSN_area.png)
 
 
-## Agents on a grid
+## Agents on a grid - landscape fragmentation
 
 - Agents at grid cells rather than coordinates
 - Very simple rules, move randomly, with bias
