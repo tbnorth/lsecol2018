@@ -1,4 +1,6 @@
-# Applications of agent-based modeling to nutrient movement Lake Michigan
+# Agent Based Models
+
+# Based on: Applications of agent-based modeling to nutrient movement Lake Michigan
 <!-- .slide: data-state="hide-head" -->
 <!-- .slide: data-background="img/png/title.png" data-background-size="contain" -->
 
@@ -44,12 +46,87 @@ http://tbnorth.github.io/solm_agents
 
 
 
+## Agent Based Model (ABM)
+
+- Google agent based model - most hits are in
+  social science, mostly behavior / decision making /
+  social networks / media type interactions
+- Modeling people as agents allows complex life
+  histories to be tracked
+- E.g. pollutant exposure, a model with child and adult agents
+  can show how a small part of the population carries a
+  contaminant load from childhood to adulthood ABMs good
+  out outliers
+
+
+
+## Agents as individuals
+
+![fish](img/fish.png)
+
+
+
+## Agent interactions
+
+- run ABM with dozens / hundreds / thousands of agents...
+- competion for food / shade
+- big fish / little fish
+  - how does time spent hiding impact time
+    spent feeding?
+- effectiveness of different behaviors / foraging
+  strategies
+
+Complexity more easily represented in ABMs
+
+
+
+## Boids
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zQhEGPrINJo?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Gavid Wood / YouTube
+
+
+
+## Agents on a grid
+
+- Agents at grid cells rather than coordinates
+- Very simple rules, move randomly, with bias
+
+![](img/dir.png) <!-- .element height="425" -->
+
+
+## Impassable cells
+
+![](img/barriers.png)
+
+
+## Landscape utilization
+
+![](img/usage.png)
+
+
+## Dead ends
+
+![](img/barriers.png)
+
+
+
+## Implementation
+
+- Relatively easy to code in any generic programming language
+  (Python, R, JavaScript, C, etc.)
+- Probably lots of frameworks too, ask Google :)
+
+
+
 ## Agents for continuous phenomena
 
 - historically agent based modeling focused on distinct
   entities (fish in streams, etc.)
 - modern computational power allows large numbers of
   agents to approximate continuous phenomena
+- often used to model plumes / spills
 
 
 
@@ -58,26 +135,6 @@ http://tbnorth.github.io/solm_agents
 - computationally efficient (*if* vectorized)
 - cover modeled space completely
 - integrate with GIS etc.
-
-
-
-![FVCOM model](img/png/FVCOM_LM.png) <!-- .element height="425" -->
-
-Unstructured grid
-
-Credit: Marine Ecosystem Dynamics Modeling Laboratory (MEDML)
-
-
-
-# Hydrodynamic model selection
-
-- available for all parts of all lakes
-- available for years covering available data (ideally 2000-)
-
-- NOAA POM, 2km (10km on Superior)
-- Navy Research Lab., 1km, Michigan only
-
-- Running FVCOM?  Historical coverage?
 
 
 
@@ -113,13 +170,10 @@ Credit: Marine Ecosystem Dynamics Modeling Laboratory (MEDML)
   to seasonal dynamics
 
 
-
 <div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/ihdx9SCcS5Q?rel=0&amp;controls=1&amp;showinfo=0?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 
 
-
 <div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/z2cA9vZoPkA?rel=0&amp;controls=1&amp;showinfo=0?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
-
 
 
 <div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/LKLIabY-y6c?rel=0&amp;controls=1&amp;showinfo=0?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
@@ -170,4 +224,5 @@ Credit: Marine Ecosystem Dynamics Modeling Laboratory (MEDML)
 Brown.TerryN | Pauer.James | Hollenhorst.Tom @epa.gov
 
 <div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/9xWGsL7qCIg?rel=0&amp;controls=1&amp;showinfo=0?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:70%;height:70%;left:15%" allowfullscreen></iframe></div>
+
 
