@@ -51,7 +51,7 @@ http://tbnorth.github.io/solm_agents
 
 ## Agent Based Model (ABM)
 
-- Google agent based model - most hits are in
+- Google “agent based model” - most hits are in
   social science, mostly behavior / decision making /
   social networks / media type interactions
 - Modeling people as agents allows complex life
@@ -126,7 +126,9 @@ Gavin Wood / YouTube
 
 - Relatively easy to code in any generic programming language
   (Python, R, JavaScript, C, etc.)
-- Probably lots of frameworks too, ask Google :)
+- NetLogo includes a visualization interface
+  https://ccl.northwestern.edu/netlogo/
+- Probably lots of other frameworks too, ask Google :)
 
 
 
