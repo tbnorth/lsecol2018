@@ -2,6 +2,8 @@
 
 ## in (landscape) ecology
 
+### http://tbnorth.github.io/lsecol2018
+
 
 
 # Based on: Applications of agent-based modeling to nutrient movement Lake Michigan
@@ -12,7 +14,7 @@
 
 ## Terry N Brown, James Pauer, Tom P Hollenhorst
 
-http://tbnorth.github.io/solm_agents
+http://tbnorth.github.io/lsecol2018
 -->
 
 
@@ -91,11 +93,12 @@ Gavin Wood / YouTube
 
 
 
-## (NLCD land cover data)
+## Erosion
 
-30 x 30 m grid of land use categories
+###### M. Alexa, S. Gortler, T Ju., pp.47-56, 2007, Pacific Graphics 2007 DOI:10.1109/PG.2007.15
 
-![](img/NLCD_landcover_MSN_area.png)
+![](img/erosion1.jpg) <!-- .element height="500" -->
+
 
 
 ## Agents on a grid - landscape fragmentation
@@ -104,6 +107,13 @@ Gavin Wood / YouTube
 - Very simple rules, move randomly, with bias
 
 ![](img/dir.png) <!-- .element height="425" -->
+
+
+## (NLCD land cover data)
+
+30 x 30 m grid of land use categories
+
+![](img/NLCD_landcover_MSN_area.png)
 
 
 ## Impassable cells
@@ -193,6 +203,26 @@ Gavin Wood / YouTube
 
 
 
+## Drifters
+
+- real life agents, for model validation and real world measurements
+
+![](img/IMG_20161117_141914.jpg)
+
+
+![](img/IMG_20161117_141344.jpg) <!-- .element height="700" -->
+
+
+![](img/IMG_20161117_141247.jpg)
+
+
+![](img/IMG_20161117_143538.jpg) <!-- .element height="700" -->
+
+
+<div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/gl_CFlBpERE?rel=0&amp;controls=1&amp;showinfo=0?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+
+
+
 <!-- .slide: data-background="img/png/nearshore_contrib0.png" data-background-size="contain" -->
 <!-- .slide: data-background-color="white" -->
 
@@ -230,12 +260,7 @@ Gavin Wood / YouTube
 
 
 
-<div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/9xWGsL7qCIg?rel=0&amp;controls=1&amp;showinfo=0?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
-
-
-
-Brown.TerryN | Pauer.James | Hollenhorst.Tom @epa.gov
+Brown.TerryN@epa.gov
 
 <div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/9xWGsL7qCIg?rel=0&amp;controls=1&amp;showinfo=0?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:70%;height:70%;left:15%" allowfullscreen></iframe></div>
-
 
